@@ -1,0 +1,49 @@
+.wrapper__form-input {
+    margin-bottom: 15px;
+}
+
+.wrapper-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 15vw;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+}
+
+.wrapper__form {
+    padding: 25px 5px 15px 5px;
+}
+
+.wrapper__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.wrapper__form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__primary-button {
+    margin: auto;
+    width: 100px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+}
+
+
+.form-input {
+    border-radius: 5px;
+    height: 20px;
+    border: none;
+    width: 175px;
+    align-items: flex-end;
+}
+
+

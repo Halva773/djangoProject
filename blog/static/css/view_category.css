@@ -1,0 +1,18 @@
+.main__container {
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto auto;
+    color: white;
+}
+
+.main__buttons-container {
+    margin-top: 10px;
+}
+
+main__button {
+    margin-right: 10px;
+}

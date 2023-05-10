@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/defoult.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/register.css' %}" type="text/css">
+    <title>Registration</title>
+</head>
+<body>
+<div class="wrapper-container">
+    <form method="post" class="wrapper__form">
+        {% csrf_token %}
+        {% for f in form %}
+            <div class="wrapper__form-input">
+                <label style="color: white;" class="form-label"
+                       for="{{ f.id_for_label }}">{{ f.label }}: </label>{{ f }}
+                <div class="form-error">{{ f.errors }}</div>
+            </div>
+        {% endfor %}
+        <div class="wrapper__primary-button">
+            <button type="submit" class="primary-button">Регистрация</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

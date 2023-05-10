@@ -1,0 +1,18 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.section-container {
+    width: 86%;
+    margin: auto;
+    color: white
+}
+
+.section-button {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    border: 2mm solid #447bba;
+    border-radius: 5px;
+    background-color: #447bba;
+}

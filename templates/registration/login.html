@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/defoult.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" type="text/css">
+</head>
+<body>
+<form method="post" class="">
+    {% csrf_token %}
+    {{ from.as_p }}
+    <div class="container__context" style="">
+        <div class="conteiner__input">
+            <input class="form-input input-wrapper wrapper-top"
+                   type="text" name="username" id="userName"
+                   placeholder="Имя пользователя">
+            <input class="form-input input-wrapper"
+                   type="password" name="password" id="pwd" placeholder="Пароль">
+        </div>
+        {{ form.errors }}
+        <div class="container__button">
+            <button class="primary-button">Войти</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>

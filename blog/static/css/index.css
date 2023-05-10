@@ -1,0 +1,68 @@
+.main__info {
+    width: 300px;
+    margin: auto;
+}
+
+.current-page {
+    color: white;
+}
+
+.main__list {
+    padding-left: 0;
+}
+
+.main__list-item {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main__info {
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.main__list {
+    color: white;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px
+}
+
+.main__container {
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+}
+
+.form-input {
+    border-radius: 7px;
+    padding: 2px 5px;
+    color: gray;
+}
+
+.main__button {
+    border: 2mm solid #447bba;
+    background-color: #447bba;
+    margin: 7px
+}
+
+.paginator-icon {
+    border: 1mm solid blue;
+    padding: 0 10px 6px 10px;
+    margin-right: 0;
+    background-color: white;
+    color: #828282;
+    text-decoration: none;
+}
+
+.paginator-icon:hover {
+    background-color: darkorange;
+    box-shadow: 0 0 15px orange;
+    border: 1mm solid rgb(0, 0, 0, 0);
+}
+
+

@@ -1,0 +1,91 @@
+body {
+    background: url("https://wallpaperaccess.com/full/5179630.jpg");
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-link:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.primary-button {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border: 2mm solid #447bba;
+    border-radius: 5px;
+    background-color: #447bba;
+}
+
+.primary-button:after {
+    content: '';
+    position: absolute;
+    border: 10px solid darkorange;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    left: calc(50% - 5px);
+    transition: all .2s ease;
+    bottom: -5px;
+    opacity: 0;
+}
+
+.primary-button:hover {
+    color: darkorange;
+    text-shadow: 0 0 15px darkorange;
+
+}
+
+.form-input {
+    border: 1px solid white;
+}
+
+.form-input:hover {
+    background: rgba(0, 0, 255, 0.4);
+    border: blue 1px solid;
+    box-shadow: 0 0 20px blue;
+}
+
+.form-input:focus {
+    background: rgba(0, 0, 255, 0.4);
+    border: blue 1px solid;
+    box-shadow: 0 0 25px blue;
+}
+
+.paginator__container {
+    padding: 20px 0;
+    margin: auto;
+}
+
+.pagination {
+    margin: auto;
+}
+
+.current-page {
+    width: 50px;
+}
+
+
+.step-links {
+    width: 235px;
+    margin: auto;
+}
+
+.header-button {
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+}

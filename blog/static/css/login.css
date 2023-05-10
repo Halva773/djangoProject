@@ -1,0 +1,36 @@
+.container__context {
+    padding: 5px 5px 20px 5px;
+    width: 225px;
+    margin: auto;
+    margin-top: 15vw;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+}
+
+.input-wrapper{
+    border-radius: 5px;
+    height: 20px;
+    border: none;
+    padding: 2px 5px;
+    margin: 10px 0 10px 0;
+    border: 1px;
+}
+
+.wrapper-top{
+    margin-top: 20px;
+}
+
+.conteiner__input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container__button{
+    width: 60px;
+    margin: auto;
+}
+
